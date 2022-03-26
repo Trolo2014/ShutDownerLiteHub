@@ -1,0 +1,32 @@
+local keys = {
+    "876545678909876543456789098765434567",
+    "876543245678909876543456789876543456",
+    "987654323456789098765456789087654567"
+}
+
+local counter = 1
+local keyCheck
+for i,v in pairs(keys) do
+    if counter == #keys then
+    --not whitelisted!
+    keys = ""
+    game.Players.LocalPlayer:Kick("nigger its just 200 robux lol")
+    else
+        if v == _G.Key then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Trolo2014/seeeeex/main/Protected.lua"))()
+            keyCheck = _G.Key
+            keys = ""
+        else
+            counter = counter +1
+        end
+    end
+end
+
+while true do
+    if _G.Key == keyCheck then
+        --Not spoofed
+    else
+        game.Players.LocalPlayer:Kick("nigger its just 200 robux lol")
+    end
+    wait()
+end
