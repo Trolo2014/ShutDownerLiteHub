@@ -4,7 +4,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("WhiteList Hub", "Serpent")
 local Tab = Window:NewTab("TabName")
 local Section = Tab:NewSection("Section Name")
-Section:NewTextBox("WRITE HERE DISCORD NAME WITH TAG", "yes", function(txt)
+Section:NewTextBox("WRITE HERE DISCORD NAME WITH TAG(U Have 3 Days)", "yes", function(txt)
 local Discord = tostring(txt)
 local webhook = "https://discord.com/api/webhooks/988184877969055764/MPkOZJ6AINBn_DFvmZp7ToY2cP_PKgePhfOLxOGP7un8NEsSg60W9KW7uWH6DoIxnhqI"
 local message = Discord.." "..game:GetService("RbxAnalyticsService"):GetClientId()
