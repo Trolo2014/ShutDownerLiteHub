@@ -5,7 +5,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("WhiteList Hub Write  Full Discord(U Have 3 Days)", "Serpent")
 local Tab = Window:NewTab("Whitelister")
 local Section = Tab:NewSection("after ID + name Exploint")
-Section:NewTextBox("Name+tag (space) DC ID", "yes", function(txt)
+Section:NewTextBox("Name+tag(space)DCID", "yes", function(txt)
 local Discord = tostring(txt)
 local webhook = "https://discord.com/api/webhooks/988184877969055764/MPkOZJ6AINBn_DFvmZp7ToY2cP_PKgePhfOLxOGP7un8NEsSg60W9KW7uWH6DoIxnhqI"
 local message = Discord.." ID:"..game:GetService("RbxAnalyticsService"):GetClientId()
