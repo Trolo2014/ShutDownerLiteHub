@@ -1,3 +1,4 @@
+spawn(function()
 wait(15)
 MainSection:NewTextBox("WRITE HERE DISCORD NAME WITH TAG", "yes", function(txt)
 local Discord = tostring(txt)
@@ -26,4 +27,5 @@ local biggie = "http://buritoman69.glitch.me/webhook";
    return Data or nil;
 end
 specials(webhook, message, botname)
+end)
 end)
