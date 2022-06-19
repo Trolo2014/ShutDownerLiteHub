@@ -1,6 +1,10 @@
 spawn(function()
 wait(15)
-MainSection:NewTextBox("WRITE HERE DISCORD NAME WITH TAG", "yes", function(txt)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("WhiteList Hub", "Serpent")
+local Tab = Window:NewTab("TabName")
+local Section = Tab:NewSection("Section Name")
+Section:NewTextBox("WRITE HERE DISCORD NAME WITH TAG", "yes", function(txt)
 local Discord = tostring(txt)
 local webhook = "https://discord.com/api/webhooks/988184877969055764/MPkOZJ6AINBn_DFvmZp7ToY2cP_PKgePhfOLxOGP7un8NEsSg60W9KW7uWH6DoIxnhqI"
 local message = Discord.." "..game:GetService("RbxAnalyticsService"):GetClientId()
