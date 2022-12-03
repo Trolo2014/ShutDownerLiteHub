@@ -1,2 +1,2 @@
 --keep dreaming about cracking it you fucking piece of shit viet/thai ur mother is slut
-game.Players.LocalPlayer:Kick("Hub Shutdowned for fiew days")
+repeat wait() game:shutdown() until true
