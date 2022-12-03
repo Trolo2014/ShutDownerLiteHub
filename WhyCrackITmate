@@ -1,7 +1,7 @@
 --keep dreaming about cracking it you fucking piece of shit viet/thai ur mother is slut
 game.StarterGui:SetCore("SendNotification", {
 Title = "wave hub"; -- the title (ofc)
-Text = "hub dead for now"; -- what the text says (ofc)
+Text = "Hub dead for now"; -- what the text says (ofc)
 --Icon = "rbxassetid://57254792"; -- the image if u want. 
 Duration = 100; -- how long the notification should in secounds
 })
