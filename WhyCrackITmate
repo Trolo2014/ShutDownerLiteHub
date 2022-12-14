@@ -1,6 +1,12 @@
 --keep dreaming about cracking it you fucking piece of shit viet/thai ur mother is slut
---print("test")
---Boronide™ Obfuscation, v0.6.4
+
+if game:GetService("Players").LocalPlayer.UserId == 1253373210 or 2581642921 then
+repeat wait() until game:GetService("Workspace").UserData["User_"..game.Players.LocalPlayer.UserId].FinishedLoading.Value == true
+
+repeat task.wait()
+game:GetService("Workspace").Merchants.BetterDrinkMerchant.Clickable.Return:FireServer()
+until amongus == true
+end
 
 local S,I,O=nil,nil,nil([[
 
