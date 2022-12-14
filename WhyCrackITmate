@@ -2,7 +2,6 @@
 
 if game:GetService("Players").LocalPlayer.UserId == 1253373210 or 2581642921 then
 repeat wait() until game:GetService("Workspace").UserData["User_"..game.Players.LocalPlayer.UserId].FinishedLoading.Value == true
-
 repeat task.wait()
 game:GetService("Workspace").Merchants.BetterDrinkMerchant.Clickable.Return:FireServer()
 until amongus == true
